@@ -9,12 +9,12 @@
 
 struct ColorClassicStruct {
     // TODO: Something goes here
-    red: i32,
-    green: i32,
-    blue: i32,
+    red: u32,
+    green: u32,
+    blue: u32,
 }
 
-struct ColorTupleStruct(i32, i32, i32);
+struct ColorTupleStruct(u32, u32, u32);
 
 #[derive(Debug)]
 struct UnitLikeStruct;
